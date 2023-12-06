@@ -4,6 +4,7 @@ import Indice from '../components/Indice.astro';
 import LogoPrincipal from '../components/LogoPrincipal.astro';
 import {Content as Aprox} from '../contenidos/aproximacion.mdx';
 import {Content as Aproximacion2} from '../contenidos/aproximacion2.mdx';
+import {Content as Aproximacion3} from '../contenidos/aproximacion3.mdx';
 import TornoFilaFrontal from '../components/TornoFilaFrontal.astro'
 ---
 
@@ -21,6 +22,31 @@ import TornoFilaFrontal from '../components/TornoFilaFrontal.astro'
 		<div class="mb-20">
 			<TornoFilaFrontal />
 		</div>
+		<div class="prose prose-lqon prose-h1:font-medium prose-h2:font-medium prose-h1:font-sans mx-auto max-h-screen text-2xl py-20 md:px-0 font-serif">
+			<Aproximacion3 />
+		</div>
 		<Indice />
+
+		<div class="prose prose-lqon prose-h1:font-medium prose-h2:font-medium prose-h1:font-sans mx-auto max-h-screen text-2xl py-20 md:px-0 font-serif">
+			<p>Posibles variaciones del logotipo</p>
+		</div>
+
+		<div class="logotipos">
+			<div class="bg-white px-6 mb-20 flex justify-center">
+				<img src="./Logotipo-principal.jpg" alt="Logotipo principal">
+			</div>
+			<div class="bg-white px-6 my-20 flex justify-center">
+				<img src="./logotipo-partido-1.jpg" alt="Logotipo principal">
+			</div>
+			<div class="bg-white px-6 my-20 flex justify-center">
+				<img src="./logotipo-partido-2.jpg" alt="Logotipo principal">
+			</div>
+			<div class="bg-white px-6 my-20 flex justify-center">
+				<img src="./logotipo-partido-3.jpg" alt="Logotipo principal">
+			</div>
+			<div class="bg-white px-6 my-20 flex justify-center">
+				<img src="./logotipo-acronimo.jpg" alt="Logotipo principal">
+			</div>
+		</div>
 	</main>
 </Layout>
